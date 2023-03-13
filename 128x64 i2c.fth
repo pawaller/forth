@@ -265,7 +265,7 @@ stream: disp.setup
     $a0 c, ( SET_SEG_REMAP_0 ) 
     $c0 c, ( SET_COM_SCAN_NORMAL ) 
     $da c, ( SETCOMPINS ) 
-    $02 c, \ or $12 ??? 
+    $12 c, \ $02 or $12 ??? 
     $db c, ( SET_VCOM_DESELECT_LEVEL ) 
     $40 c, 
     $a4 c, ( RESUME_TO_RAM_CONTENT ) 
